@@ -1,0 +1,45 @@
+{
+    "name": "cw-spider",
+    "version": "0.0.3",
+    "main": "lib/spider.js",
+    "description": "spider",
+    "homepage": "http://github.com/liangyali/cw-spider",
+    "bugs": "liangyali/cw-spider/issues",
+    "author": {
+        "name": "",
+        "email": ""
+    },
+    "repository": {
+        "type": "git",
+        "url": "liangyali/cw-spider"
+    },
+    "license": "MIT",
+    "files": [
+        "lib"
+    ],
+    "keywords": [
+        "cw-spider"
+    ],
+    "devDependencies": {
+        "grunt-contrib-jshint": "^0.10.0",
+        "grunt-contrib-nodeunit": "^0.3.3",
+        "grunt-contrib-watch": "^0.6.1",
+        "load-grunt-tasks": "^0.4.0",
+        "time-grunt": "^0.3.1",
+        "grunt-mocha-cli": "^1.9.0",
+        "jshint-stylish": "^0.2.0"
+    },
+    "scripts": {
+        "test": "grunt"
+    },
+    "dependencies": {
+        "cheerio": "^0.18.0",
+        "co": "^4.4.0",
+        "co-limiter": "^1.0.2",
+        "debug": "^2.1.2",
+        "hashring": "^3.1.0",
+        "lodash": "^3.5.0",
+        "native-promisify": "^1.2.0",
+        "request-rate-limiter": "^0.2.1"
+    }
+}
